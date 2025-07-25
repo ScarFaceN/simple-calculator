@@ -12,25 +12,24 @@ int main()
     operator = get_char("Enter the operator(+ - * /): ");
     input2 = get_float("Enter the second number: ");
 
-    if(operator == '+') 
+switch(operator)
     {
-        printf("result: %f\n", input1 + input2);
-    } 
-    else if(operator == '-') 
-    {
-        printf("result: %f\n", input1 - input2);
-    } 
-    else if(operator == '*') 
-    {
-        printf("result: %f\n", input1 * input2);
-    } 
-    else if (operator == '/')
-    {
-        printf("result: %f\n", input1 / input2);
-    } 
-    else 
-    {
-        printf("Invalid operator\n");
+        case '+':
+            printf("result: %f\n", input1 + input2);
+            break;
+        case '-':
+            printf("result: %f\n", input1 - input2);
+            break;
+        case '*':
+            printf("result: %f\n", input1 * input2);
+            break;
+        case '/':
+            printf("result: %f\n", input1 / input2);
+            break;
+        default:
+            printf("Invalid operator\n");
+            break;
+
     }
     return 0;
 }
