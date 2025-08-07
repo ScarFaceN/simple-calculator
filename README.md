@@ -8,10 +8,13 @@ This project uses the **CS50 library**, so make sure it's installed before compi
 For more information about CS50 library, please visit its official repository: https://github.com/cs50/libcs50
 
 ## Usage
+### Compiling the original file to be executable
 ```
-gcc simple_calculator_v1.c -o simple_calculator_v1 # Compiling the original file to be executable
-
-./simple_calculator_v1 # Run the compiled executable file
+gcc simple_calculator_v1.c -o simple_calculator_v1
+```
+### Run the compiled executable file
+```
+./simple_calculator_v1 
 ```
 
 ## ❗Disclaimer❗
