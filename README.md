@@ -7,16 +7,12 @@ It was built using the CS50 library to simplify user input handling.
 This project uses the **CS50 library**, so make sure it's installed before compiling.
 For more information about CS50 library, please visit its official repository: https://github.com/cs50/libcs50
 
-## How to Compile(using bash)
+## Usage
 ```
-gcc simple_calculator_v1.c -o calculator
+gcc simple_calculator_v1.c -o simple_calculator_v1 # Compiling the original file to be executable
+
+./simple_calculator_v1 # Run the compiled executable file
 ```
 
-## How to Run(using bash)
-```
-./calculator
-```
-
-## Notes
+## Disclaimer❗
 This project is for learning purposes only and was built as a practice task while learning C with the CS50 course.
-
