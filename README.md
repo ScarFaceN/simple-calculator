@@ -14,5 +14,5 @@ gcc simple_calculator_v1.c -o simple_calculator_v1 # Compiling the original file
 ./simple_calculator_v1 # Run the compiled executable file
 ```
 
-## Disclaimer❗
+## ❗Disclaimer❗
 This project is for learning purposes only and was built as a practice task while learning C with the CS50 course.
